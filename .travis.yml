@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - openjdk11
+
+script: ./mvnw clear install
+
+notifications:
+  email: ayberkgerey@gmail.com
